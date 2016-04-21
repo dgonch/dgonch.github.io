@@ -1,0 +1,123 @@
+body {
+	background: #f9f9f9;
+	}
+#container {
+	font-size:1em;
+	font-family: 'Roboto', sans-serif;
+	height: 1000px;
+	width: 100%;
+	max-width: 60em;
+	border: 1px solid lightgrey;
+	margin:auto;
+	background: white;
+	box-shadow:1px 2px 5px lightgrey,
+		      -1px 2px 5px lightgrey;
+	padding-left: 3em;
+	padding-right:3em;
+}
+header {
+	float: left;
+	width: 80%;
+	height: 120px;
+	background: url(fitness.png) 0px 50px no-repeat white;}
+.header-menu ul {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin-bottom: 20px;
+	border-radius:5px; 
+}
+.header-menu ul li {
+	display: inline-block;
+	background: #525151;
+	min-width:5em; 
+	width:25.5%;
+	text-align: center;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: -1%; 
+}
+.header-menu li:nth-child(2) {
+	background: #494952;
+}
+.header-menu ul li a {
+	color: white;
+	text-decoration: none;
+}
+.content {
+
+	padding-top:25px; 
+	width: 100%;
+	height: 600px;
+	float: left;
+	font-family: "times new roman";
+}
+
+.left-menu ul{
+	margin-top:0px;
+	float: left;
+	height: 600px;
+}
+.left-menu ul li {
+	list-style: none;
+}
+.left-menu ul li a {
+	display: block;
+	border:1px solid lightgrey ;
+	margin-left: -40px;
+	margin-bottom: -1px;
+	padding:10px 40px 10px 25px;
+	width: 10em;
+	font-family: 'Roboto', sans-serif;
+	color: grey;
+	text-decoration: none;
+
+}
+.left-menu ul a:hover {
+
+	margin-left: -40px;
+	padding-left:45px;
+	background: lightgrey;
+	width:8.75em;
+	color: white;
+}
+.left-menu ul li a:hover {
+	color: white;
+}
+.velo-image {
+	float: right;
+	border:1px solid lightgrey;
+	margin-bottom: 30px;
+
+
+}
+.information {
+	font-family: 'Roboto', sans-serif;
+	float: right;
+	width: 41em;
+	height: 600px;
+}
+
+footer {
+	margin-top: 100px;
+	float: left;
+	width: 100%;
+	background: #e1e1e1;
+	margin-bottom: 0px;
+}
+.footer-menu li {
+	display: inline-block;
+	width: 6em;
+
+
+}
+.footer-menu li a{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+
+}
+footer p {
+	margin-top: -35px;
+	float: right;
+}

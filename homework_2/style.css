@@ -1,0 +1,53 @@
+body {
+	background: url(Background.jpg) repeat-x;
+	
+}
+#container {
+	box-shadow: 0px 10px 45px 1px;
+	border-radius: 2px;
+	margin: auto;
+	width: 995px;
+	height:985px;
+	background: white;
+}
+header {
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+	width: 995px;
+	height: 167px;
+	background: url(Logo.jpg) 35px 0px no-repeat white;
+}
+div.picwithsea {
+	width: 995px;
+	height: 230px;
+	background: url(PicSea.jpg) no-repeat;
+}
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	float: left;
+	box-shadow: 0px 2px 15px -5px;
+	height: 150px;
+}
+nav ul li {
+	display: inline-block;
+	list-style: none;	
+}
+nav ul a{ 
+	
+	background: url(menubg.jpg) repeat-x;
+	font-size: 13px;
+	font-family: "Roboto";
+	text-decoration: none;
+	color: white;	
+	padding: 5px 40.1px;
+	
+	
+}
+nav ul li:not(:first-child) {
+	margin-left: -6px;
+}
+
+nav ul li:last-child {
+	margin-right: 0px; }

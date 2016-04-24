@@ -9,6 +9,7 @@ body {
 	width: 995px;
 	height:985px;
 	background: white;
+	font-family: "Roboto";
 }
 header {
 	border-top-right-radius: 2px;
@@ -23,31 +24,95 @@ div.picwithsea {
 	background: url(PicSea.jpg) no-repeat;
 }
 nav ul {
-	margin: 0px;
+	background: url(menubg.jpg) repeat-x;
+	margin:0px;
 	padding: 0px;
-	width: 100%;
-	float: left;
-	box-shadow: 0px 2px 15px -5px;
-	height: 150px;
+	box-shadow: 0 3px 10px 0 #303030;
 }
 nav ul li {
 	display: inline-block;
 	list-style: none;	
-}
-nav ul a{ 
-	
+	width: 142px;
+	height: 22px;
 	background: url(menubg.jpg) repeat-x;
-	font-size: 13px;
-	font-family: "Roboto";
+	text-align: center;
+	padding-top: 6px;
+
+}
+nav ul li:not(:first-child){
+	margin-left: -5px;
+}
+nav ul li:last-child {
+	width: 149.2px;
+}
+nav ul li a {
 	text-decoration: none;
-	color: white;	
-	padding: 5px 40.1px;
-	
+	color: white;
+	font-size: 13px;
+
+}
+.submenu {
+	padding: 0px;
+	margin: 6px 0 0 0;
+	display: none;
+    position: absolute;
+    box-shadow: none;
+	box-shadow: 0 -5px 6px  0 #303030;
+}
+.submenu > li {
+	list-style: none;
+    display: block;
+    background: #303030;
 	
 }
-nav ul li:not(:first-child) {
-	margin-left: -6px;
+nav ul li:hover .submenu {
+	display: block;
+	animation: invs  0.4s  ease-in-out;
+}
+.submenu li:last-child {
+	width: 142px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	box-shadow: 0 5px 10px -4px #303030;
+
+}
+.submenu li:not(:first-child){
+	margin-left: 0px;
 }
 
-nav ul li:last-child {
-	margin-right: 0px; }
+@keyframes invs {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+main {
+	text-align: center;
+	word-wrap: break-word;
+	font-family: "Roboto";
+	float: left;
+	width: 995px;
+	height: 550px;
+	margin: 6px 0 0 0;
+	line-height: 25px;
+}
+
+.Clear-page {
+
+	float: left;
+	width: 495px;
+	background: white;
+	height: 100%;
+}
+.Information {
+	padding :0 20px 0 15px;
+	width: 215px;
+	background: #edeef0;
+	height: 100%;
+	float: left;
+}
+.News {
+	padding :0 20px 0 15px;
+	width: 215px;
+	background: #edeef0;
+	height: 100%;
+	float: right;
+}

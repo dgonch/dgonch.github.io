@@ -5,13 +5,14 @@ body {
 .box {
 	position: absolute;
 	width: 555px;
-	height: 610px;
+	height: 515px;
 	background: rgba(16, 16, 16, 0.5);
-	top: 210px;
+	top: 272px;
    	margin-left: -275px;
    	left:50%;
-	border-radius: 3px;
+	border-radius:2px;
 	font-family: "Roboto";
+	padding-top: 35px;
 }
 .vhod {
 	width: 300px;
@@ -54,6 +55,7 @@ body {
 	height: 400px;
 	margin:0px 127px;
 }
+
 .createacc {
 	width: 300px;
 	height: 200px;
@@ -96,8 +98,9 @@ body {
 	background: #4eabda;
 }
 
-.top-menu li:hover a,.top-menu li:nth-child(6) a,.registration h2,.facebook-button {
-	color:white
+.top-menu li:hover a,.top-menu li:nth-child(6) a,.registration h2,.facebook-button,.top-menu li:last-child a,.codastre h2{
+	color:white;
+	font-family: "Roboto";
 }
 .top-menu li:nth-child(6) {
 	width: 170px;
@@ -128,6 +131,7 @@ body {
 	text-align: center;
 	padding-top: 8px;
 	border-left: 1px solid #7789b7;
+	margin-bottom: 10px;
 }
 .facebook-logo{
 	float: left;
@@ -139,4 +143,42 @@ body {
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	border-right: 1px solid #1f3d73;
+}
+.top-menu li:last-child a {
+	background: #4eabda;
+	width: 220px;
+
+}
+.top-menu li:last-child  {
+	background: #4eabda;
+	width: 220px;
+}
+.codastre {
+	position: absolute;
+	width: 555px;
+	height: 60px;
+	background: rgba(16, 16, 16, 0.5);
+	top: 210px;
+   	margin-left: -275px;
+   	left:50%;
+   	text-align: center;
+   	border-radius:2px;
+}
+
+.line {
+	content: "";
+	width: 45%;
+	height: 2px;
+	background: grey;
+}
+.ou {
+	margin-top:10px;
+	text-align: center;
+}
+
+.ou::after {
+	content: "";
+	width: 45%;
+	height: 2px;
+	background: grey;
 }

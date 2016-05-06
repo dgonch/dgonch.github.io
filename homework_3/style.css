@@ -165,20 +165,30 @@ body {
    	border-radius:2px;
 }
 
-.line {
-	content: "";
-	width: 45%;
-	height: 2px;
-	background: grey;
-}
-.ou {
-	margin-top:10px;
-	text-align: center;
-}
 
-.ou::after {
-	content: "";
-	width: 45%;
+.ou {
+	position: absolute;
+	margin-top:10px;
+	top: 84px;
+	left: 268px;
+	color: lightgrey;
+
+}
+.f-line {
+	width: 130px;
 	height: 2px;
-	background: grey;
+	background: black;
+	opacity: 0.4;
+	float: left;
+	margin-top: 23px;
+
+}
+.s-line {
+	width: 130px;
+	height: 2px;
+	background: black;
+	opacity: 0.4;
+	float: right;
+	margin-top: 23px;
+	margin-bottom: 10px;
 }

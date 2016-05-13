@@ -11,7 +11,7 @@ body {
 .wrapper {
 	width: 900px;
 	margin: 0 auto;
-	background: url(bgbody.jpg)110px 1120px no-repeat;
+	background: url(bgbody.jpg)110px 1140px no-repeat;
 }
 
 
@@ -590,4 +590,7 @@ span.price-on-the-wheel {
 }
 .middle ul li p {
 	font-size: 14px;
+}
+.middle ul li img {
+	border-radius: 6px;
 }
